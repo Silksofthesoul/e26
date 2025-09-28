@@ -15,7 +15,7 @@
 
     create() {
       this.elRoot = element('div', { class: 'scene' });
-      insert(this.elRoot);
+      insert(this.elRoot, document.body, 'afterbegin');
     }
   };
 
