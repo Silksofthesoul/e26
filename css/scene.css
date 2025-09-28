@@ -1,0 +1,13 @@
+.scene {
+  align-items:      center;
+  align-content:    flex-start;
+  background-color: var(--scene-bg);
+  display:          flex;
+  flex-direction:   row;
+  flex-wrap:        wrap;
+  gap:              var(--scene-spacer-short);
+  height:           80vh;
+  justify-content:  flex-start;
+  padding:          var(--scene-spacer-long);
+  width:            80vw;
+}

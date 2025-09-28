@@ -1,0 +1,32 @@
+:root {
+  /* CSS HEX */
+  --taupe-gray: #9a8f97;
+  --silver:     #c3baba;
+  --platinum:   #e9e3e6;
+  --silver-2:   #b2b2b2;
+  --dim-gray:   #736f72;
+
+  /* colors: scene */
+  --scene-bg: var(--platinum);
+
+  /* colors: domino */
+  --domino-bg: var(--dim-gray);
+  --domino-bg-dot: var(--platinum);
+  --domino-bg-delim: var(--platinum);
+  --domino-border-dot: var(--silver-2);
+  --domino-border-delim: var(--silver-2);
+
+  /* sizes: domino */
+  --domino-size-short: 3rem;
+  --domino-size-long: calc(var(--domino-size-short) * 2);
+  --domino-size-delim: calc(var(--domino-size-short) / 10);
+  --domino-size-dot: calc(var(--domino-size-short) / 10);
+
+  /* spacers: scene */
+  --scene-spacer-short: var(--domino-size-delim );
+  --scene-spacer-long: calc(var(--domino-size-delim ) * 2);
+
+  /* spacers: domino */
+  --domino-spacer-short: 0.5rem;
+  --domino-spacer-long: 1rem;
+}
